@@ -10,8 +10,8 @@
     "build": "nuxt build",
     "build-a": "nuxt build --analyze",
     "build-spa": "nuxt build --spa",
-    "start": "nuxt start -p 3000 -H 0.0.0.0",
-    "start-spa": "nuxt start --spa -p 3000 -H 0.0.0.0",
+    "start": "nuxt start -p 3001 -H 0.0.0.0",
+    "start-spa": "nuxt start --spa -p 3001 -H 0.0.0.0",
     "generate": "nuxt generate"
   },
   "dependencies": {

@@ -11,7 +11,7 @@ $ npm install
 # serve with hot reload at localhost:3000
 $ npm run dev-spa
 
-# build for production and launch server
+# build for production and launch server at localhost:3001
 $ npm run build-spa
 $ npm run start-spa
 ```
