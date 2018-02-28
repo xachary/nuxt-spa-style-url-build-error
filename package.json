@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-spa-style-url-build-error",
+  "version": "1.0.0",
+  "description": "nuxt-spa-style-url-build-error",
+  "author": "杨家辉 <yangjiahui@yy.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt -p 3000 -H 0.0.0.0",
+    "dev-spa": "nuxt --spa -p 3000 -H 0.0.0.0",
+    "build": "nuxt build",
+    "build-a": "nuxt build --analyze",
+    "build-spa": "nuxt build --spa",
+    "start": "nuxt start -p 3000 -H 0.0.0.0",
+    "start-spa": "nuxt start --spa -p 3000 -H 0.0.0.0",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0",
+    "axios": "^0.17.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
+  }
+}
